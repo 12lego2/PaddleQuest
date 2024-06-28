@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 55feab9df79b24241bc32c26d6bbe0bb
+  productGUID: 2c64bd27b8918864ca828fa9661184aa
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: PaddleQuest
+  productName: PaddleQuest_Local
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +630,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: PaddleQuest
+  metroPackageName: PaddleQuest_Local
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: PaddleQuest
+  metroApplicationDescription: PaddleQuest_Local
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -706,11 +706,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f8d5e0c1-f5c5-44c7-a11a-e310b2b98758
+  cloudProjectId: aac6d518-52bc-4107-9b77-556e14841962
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: PaddleQuest
-  organizationId: jonathanescaleraibarra
+  projectName: PaddleQuest_Local
+  organizationId: mva456
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
