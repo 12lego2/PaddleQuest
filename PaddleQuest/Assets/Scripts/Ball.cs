@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrow : MonoBehaviour
+public class Ball : MonoBehaviour
 {
     public float speed = 200.0f;
 
@@ -26,7 +28,7 @@ public class Arrow : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Set arrow position at game start
+    // Set position at game start
     private void Start()
     {
         originalPos = transform.position;
@@ -34,7 +36,7 @@ public class Arrow : MonoBehaviour
         ResetPosition();
     }
 
-    // Random direction the arrow starts
+    // Random direction at start
     private void AddStartForce()
     {
         // Angle                         down   up
@@ -43,7 +45,7 @@ public class Arrow : MonoBehaviour
         // Vertical                                   min   max                   min   max
         float y = Random.value < 0.5f ? Random.Range(-1.0f, -0.5f) : Random.Range(-0.5f, -1.0f);
 
-        
+
         Vector2 direction = new Vector2(x, y);
         // Increase speed
         _rigidbody.AddForce(direction * this.speed);

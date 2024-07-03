@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Arrow arrow;
+    //public Arrow arrow;
+    public Ball ball;
     public int damage = 10;
     public int maxHealth = 100;
     /*public HealthBar healthBar;*/
@@ -19,18 +20,32 @@ public class GameManager : MonoBehaviour
     public void PlayerDamage()
     {
         _playerHealth -= damage;
-
         Debug.Log("Player " + _playerHealth);
 
-        this.arrow.ResetPosition();
+        if(_playerHealth <= 0 )
+        {
+            Debug.Log("You died");
+        }
+        else
+        {
+            //this.arrow.ResetPosition();
+            this.ball.ResetPosition();
+        }
     }
 
     public void CompDamage()
     {
         _compHealth -= damage;
-
         Debug.Log("Computer " + _compHealth);
 
-        this.arrow.ResetPosition();
+        if (_compHealth <= 0)
+        {
+            Debug.Log("You win");
+        }
+        else
+        {
+            //this.arrow.ResetPosition();
+            this.ball.ResetPosition();
+        }
     }
 }
