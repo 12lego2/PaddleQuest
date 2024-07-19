@@ -843,7 +843,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1120991354}
-  damage: 10
+  ballDamage: 10
+  arrow: {fileID: 114382035}
+  arrowDamage: 20
   maxHealth: 100
   playerHealthSlider: {fileID: 1397813028}
   compHealthSlider: {fileID: 2072003491}
