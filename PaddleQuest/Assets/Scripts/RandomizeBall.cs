@@ -14,11 +14,11 @@ public class RandomizeBall : MonoBehaviour
 
         if(randNum == 0 )
         {
-            ball.SetActive(true);
+            /*ball.SetActive(true);*/
         }
         if (randNum == 1)
         {
-            arrow.SetActive(true);
+            /*arrow.SetActive(true);*/
         }
     }
 }
