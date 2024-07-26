@@ -1,0 +1,165 @@
+using System;
+using System.Collections.Generic;
+
+namespace RPGCharacterManagement
+{
+    class Program
+    {
+        static List<Character> characters = new List<Character>();
+
+        static void Main(string[] args)
+        {
+            bool exit = false;
+
+            while (!exit)
+            {
+                Console.WriteLine("Welcome to the RPG Character Management System");
+                Console.WriteLine("----------------------------------------");
+                Console.WriteLine("1. Create New Character");
+                Console.WriteLine("2. Display Character Details");
+                Console.WriteLine("3. Perform Attack");
+                Console.WriteLine("4. Use Special Ability");
+                Console.WriteLine("5. Change Character Class");
+                Console.WriteLine("6. Exit");
+                Console.WriteLine("----------------------------------------");
+                Console.Write("Enter your choice: ");
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        CreateNewCharacter();
+                        break;
+                    case "2":
+                        DisplayCharacterDetails();
+                        break;
+                    case "3":
+                        PerformAttack();
+                        break;
+                    case "4":
+                        UseSpecialAbility();
+                        break;
+                    case "5":
+                        ChangeCharacterClass();
+                        break;
+                    case "6":
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice, please try again.");
+                        break;
+                }
+            }
+
+            Console.WriteLine("Thank you for using the RPG Character Management System. Goodbye!");
+        }
+
+        static void CreateNewCharacter()
+        {
+            Console.Write("Enter Character Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Choose Character Type (1 for Warrior, 2 for Mage): ");
+            string type = Console.ReadLine();
+
+            Character character;
+            if (type == "1")
+            {
+                character = new Warrior(name);
+            }
+            else if (type == "2")
+            {
+                character = new Mage(name);
+            }
+            else
+            {
+                Console.WriteLine("Invalid character type. Defaulting to Warrior.");
+                character = new Warrior(name);
+            }
+
+            characters.Add(character);
+            Console.WriteLine("Character created successfully!");
+        }
+
+        static void DisplayCharacterDetails()
+        {
+            if (characters.Count == 0)
+            {
+                Console.WriteLine("No characters created yet.");
+                return;
+            }
+
+            foreach (var character in characters)
+            {
+                character.DisplayCharacterInfo();
+            }
+        }
+
+        static void PerformAttack()
+        {
+            if (characters.Count == 0)
+            {
+                Console.WriteLine("No characters created yet.");
+                return;
+            }
+
+            foreach (var character in characters)
+            {
+                character.Attack();
+            }
+        }
+
+        static void UseSpecialAbility()
+        {
+            if (characters.Count == 0)
+            {
+                Console.WriteLine("No characters created yet.");
+                return;
+            }
+
+            foreach (var character in characters)
+            {
+                if (character is ISpecialAbility specialCharacter)
+                {
+                    specialCharacter.UseSpecialAbility();
+                }
+            }
+        }
+
+        static void ChangeCharacterClass()
+        {
+            Console.Write("Enter Character Name to Change Class: ");
+            string name = Console.ReadLine();
+
+            Character character = characters.Find(c => c.Name == name);
+            if (character == null)
+            {
+                Console.WriteLine("Character not found.");
+                return;
+            }
+
+            Console.Write("Choose New Character Type (1 for Warrior, 2 for Mage): ");
+            string type = Console.ReadLine();
+
+            Character newCharacter;
+            if (type == "1")
+            {
+                newCharacter = new Warrior(character.Name);
+            }
+            else if (type == "2")
+            {
+                newCharacter = new Mage(character.Name);
+            }
+            else
+            {
+                Console.WriteLine("Invalid character type. Defaulting to Warrior.");
+                newCharacter = new Warrior(character.Name);
+            }
+
+            characters.Remove(character);
+            characters.Add(newCharacter);
+
+            Console.WriteLine("Character class changed successfully!");
+        }
+    }
+}
