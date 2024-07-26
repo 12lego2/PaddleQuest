@@ -17,8 +17,17 @@ public class Ball : MonoBehaviour
     public void ResetPosition()
     {
         //_rigidbody.position = Vector3.up;
-        _rigidbody.velocity = Vector3.up;
-        transform.position = originalPos;
+        /*_rigidbody.velocity = Vector3.up;*/
+
+        // Create a Vector3 with a random x position between -4 and 4
+        float randomX = Random.Range(-4f, 4f);
+
+        Vector3 randomPos = new Vector3(randomX, originalPos.y, originalPos.z);
+
+        // Assign this random position to the object's transform
+        transform.position = randomPos;
+
+        /*transform.position = originalPos;*/
 
         AddStartForce();
     }
@@ -32,7 +41,6 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         originalPos = transform.position;
-
         ResetPosition();
     }
 
