@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
+    
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        Invoke ("BattleLoad", 1);
     }
-    
+    public void BattleLoad()
+    {
+        SceneManager.LoadSceneAsync("Battle");
+    }
 }
