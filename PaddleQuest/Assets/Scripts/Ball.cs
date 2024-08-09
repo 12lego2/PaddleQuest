@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public float speed = 200.0f;
 
+    public float MaxSpeed = 120f;
+
+    public float speed = 80.0f;
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
 
@@ -36,6 +38,9 @@ public class Ball : MonoBehaviour
         ResetPosition();
     }
 
+    
+    public GameManager gmanager;
+   
     // Random direction at start
     private void AddStartForce()
     {
@@ -48,6 +53,11 @@ public class Ball : MonoBehaviour
 
         Vector2 direction = new Vector2(x, y);
         // Increase speed
-        _rigidbody.AddForce(direction * this.speed);
+
+        //code to calc the % is going to be Max HP - Current HP divided by 100
+        
+        float finalspeed = Mathf.Lerp(speed, MaxSpeed, 1);
+        _rigidbody.AddForce(direction * finalspeed);
     }
+
 }

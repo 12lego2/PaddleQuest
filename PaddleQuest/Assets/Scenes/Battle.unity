@@ -904,6 +904,7 @@ MonoBehaviour:
   maxHealth: 100
   playerHealthSlider: {fileID: 1397813028}
   compHealthSlider: {fileID: 2072003491}
+  _compHealth: 0
 --- !u!4 &1105072909
 Transform:
   m_ObjectHideFlags: 0
@@ -953,7 +954,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec52674559ec17b46b5f70551ae28594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxSpeed: 120
   speed: 90
+  gmanager: {fileID: 1105072908}
 --- !u!114 &1120991355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,7 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5511f4540aad68f459ce98b199f0b281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 5
+  bounceStrength: 6
 --- !u!1 &1196180106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5511f4540aad68f459ce98b199f0b281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 5
+  bounceStrength: 6
 --- !u!1 &1586453751
 GameObject:
   m_ObjectHideFlags: 0
