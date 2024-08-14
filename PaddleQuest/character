@@ -1,1 +1,18 @@
 
+namespace RPGCharacterManagement
+{
+    public abstract class Character
+    {
+        public string Name { get; set; }
+        public int Health { get; set; }
+        public int AttackPower { get; set; }
+
+        public Character(string name)
+        {
+            Name = name;
+        }
+
+        public abstract void Attack();
+        public abstract void DisplayCharacterInfo();
+    }
+}
