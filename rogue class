@@ -1,32 +1,21 @@
-using System;
-
-namespace RPGCharacterManagementSystem
+namespace RPGCharacterManagement
 {
-    public class Rogue : Character, ISpecialAbility
+    public class Rogue : Character
     {
-        public Rogue(string name) : base(name, 120, 25) { }
-
-        public override void Attack(Character target)
+        public Rogue(string name) : base(name)
         {
-            Console.WriteLine($"{Name} attacks {target.Name} with a dagger!");
-            target.Health -= AttackPower;
+            Health = 100;   // Moderate health for Rogue
+            AttackPower = 25; // Higher attack power due to agility and critical strikes
         }
 
-        public void UseSpecialAbility()
+        public override void Attack()
         {
-            Console.WriteLine($"{Name} uses a stealth attack!");
+            Console.WriteLine($"{Name} strikes from the shadows! Deals {AttackPower} damage.");
         }
 
-        public override void UseSpecialAbility(Character target)
+        public override void DisplayCharacterInfo()
         {
-            Console.WriteLine($"{Name} performs a special stealth attack on {target.Name}!");
-            target.Health -= AttackPower * 2; // Double damage for special ability
-        }
-
-        public override void ReflectAttack(Character target)
-        {
-            Console.WriteLine($"{Name} reflects the attack from {target.Name}!");
-            target.Health -= AttackPower;
+            Console.WriteLine($"Name: {Name}, Class: Rogue, Health: {Health}, Attack Power: {AttackPower}");
         }
     }
 }
