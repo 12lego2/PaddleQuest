@@ -1,0 +1,27 @@
+public class Player
+{
+    private static Player instance;
+
+    public static Player Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = new Player();
+            }
+            return instance;
+        }
+    }
+
+    public int health;
+    public int damage;
+
+    public void SetClass(CharacterClass charClass)
+    {
+        this.health = charClass.health;
+        this.damage = charClass.damage;
+    }
+}
+
+

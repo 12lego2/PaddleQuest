@@ -1,0 +1,26 @@
+public class WarriorClass : CharacterClass
+{
+    public WarriorClass()
+    {
+        totalHits = 10; // Warrior can take 10 hits
+        // Other stats like damage can be set here
+    }
+}
+
+public class MageClass : CharacterClass
+{
+    public MageClass()
+    {
+        totalHits = 5; // Mage can take 5 hits
+        // Other stats
+    }
+}
+
+public class RogueClass : CharacterClass
+{
+    public RogueClass()
+    {
+        totalHits = 7; // Rogue can take 7 hits
+        // Other stats
+    }
+}

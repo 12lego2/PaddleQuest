@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Slider compHealthSlider;
 
     private int _playerHealth;
-    private int _compHealth;
+    public int _compHealth;
 
     void Start()
     {
