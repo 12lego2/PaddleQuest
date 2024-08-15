@@ -1,13 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
 
     public float MaxSpeed = 120f;
-
     public float speed = 80.0f;
+    public GameManager gmanager;
+    public int whichSprite;
+    public Sprite arrow;
+    public Sprite ball;
+
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
 
@@ -16,6 +18,7 @@ public class Ball : MonoBehaviour
         _rigidbody.AddForce(force);
     }
 
+    // Respawn ball and randomize ball or arrow projectile
     public void ResetPosition()
     {
         //_rigidbody.position = Vector3.up;
@@ -32,23 +35,18 @@ public class Ball : MonoBehaviour
         /*transform.position = originalPos;*/
 
         AddStartForce();
+
+        whichSprite = Random.Range(1, 10);
+        if (whichSprite % 2 == 0)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = arrow;
+        }
+        else
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = ball;
+        }
     }
 
-    private void Awake()
-    {
-        _rigidbody = GetComponent<Rigidbody2D>();
-    }
-
-    // Set position at game start
-    private void Start()
-    {
-        originalPos = transform.position;
-        ResetPosition();
-    }
-
-    
-    public GameManager gmanager;
-   
     // Random direction at start
     private void AddStartForce()
     {
@@ -63,9 +61,36 @@ public class Ball : MonoBehaviour
         // Increase speed
 
         //code to calc the % is going to be Max HP - Current HP divided by 100
-        
+
         float finalspeed = Mathf.Lerp(speed, MaxSpeed, 1);
         _rigidbody.AddForce(direction * finalspeed);
     }
 
+    private void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (whichSprite % 2 == 0) 
+        {
+            // If arrow hits the player paddle
+            if (collision.gameObject.CompareTag("Paddle"))
+            {
+                ResetPosition();
+            }
+            else if(collision.gameObject.CompareTag("PlayerWall"))
+            {
+                gmanager.PlayerDamage();
+            }
+        }
+    }
+
+    // Set position at game start
+    private void Start()
+    {
+        originalPos = transform.position;
+        ResetPosition();
+    }
 }
