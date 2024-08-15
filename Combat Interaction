@@ -1,0 +1,11 @@
+public class Combat : MonoBehaviour
+{
+    void OnCollisionEnter(Collision collision)
+    {
+        // Assume collision with Pong object
+        if (collision.gameObject.CompareTag("Pong"))
+        {
+            Player.Instance.TakeDamage();
+        }
+    }
+}

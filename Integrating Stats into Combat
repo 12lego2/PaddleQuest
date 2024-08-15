@@ -1,0 +1,17 @@
+public class Combat
+{
+    public void AttackEnemy(Enemy enemy)
+    {
+        enemy.TakeDamage(Player.Instance.damage);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        Player.Instance.health -= damage;
+        if (Player.Instance.health <= 0)
+        {
+            // Handle player death
+        }
+    }
+}
+
