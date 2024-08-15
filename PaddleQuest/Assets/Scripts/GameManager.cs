@@ -3,16 +3,18 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    //public Arrow arrow;
     public Ball ball;
-    public int damage = 10;
-    public int maxHealth = 100;
+    public int ballDamage = 10;
 
+    /*public Arrow arrow;
+    public int arrowDamage = 20;*/
+
+    public int maxHealth = 100;
     public Slider playerHealthSlider;
     public Slider compHealthSlider;
 
     private int _playerHealth;
-    private int _compHealth;
+    public int _compHealth;
 
     void Start()
     {
@@ -35,7 +37,7 @@ public class GameManager : MonoBehaviour
         }
 
         // Reload the scene if the player is dead
-        if (_playerHealth <= 0)
+        if (_playerHealth <= 0 || _compHealth <= 0)
         {
             Application.LoadLevel(Application.loadedLevel);
         }
@@ -43,7 +45,7 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDamage()
     {
-        _playerHealth -= damage;
+        _playerHealth -= ballDamage;
         Debug.Log("Player " + _playerHealth);
 
         if(_playerHealth <= 0 )
@@ -59,7 +61,7 @@ public class GameManager : MonoBehaviour
 
     public void CompDamage()
     {
-        _compHealth -= damage;
+        _compHealth -= ballDamage;
         Debug.Log("Computer " + _compHealth);
 
         if (_compHealth <= 0)

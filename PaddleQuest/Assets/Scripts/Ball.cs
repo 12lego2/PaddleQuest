@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public float speed = 200.0f;
 
+    public float MaxSpeed = 120f;
+
+    public float speed = 80.0f;
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
 
@@ -17,8 +19,17 @@ public class Ball : MonoBehaviour
     public void ResetPosition()
     {
         //_rigidbody.position = Vector3.up;
-        _rigidbody.velocity = Vector3.up;
-        transform.position = originalPos;
+        /*_rigidbody.velocity = Vector3.up;*/
+
+        // Create a Vector3 with a random x position between -4 and 4
+        float randomX = Random.Range(-4f, 4f);
+
+        Vector3 randomPos = new Vector3(randomX, originalPos.y, originalPos.z);
+
+        // Assign this random position to the object's transform
+        transform.position = randomPos;
+
+        /*transform.position = originalPos;*/
 
         AddStartForce();
     }
@@ -32,10 +43,12 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         originalPos = transform.position;
-
         ResetPosition();
     }
 
+    
+    public GameManager gmanager;
+   
     // Random direction at start
     private void AddStartForce()
     {
@@ -48,6 +61,11 @@ public class Ball : MonoBehaviour
 
         Vector2 direction = new Vector2(x, y);
         // Increase speed
-        _rigidbody.AddForce(direction * this.speed);
+
+        //code to calc the % is going to be Max HP - Current HP divided by 100
+        
+        float finalspeed = Mathf.Lerp(speed, MaxSpeed, 1);
+        _rigidbody.AddForce(direction * finalspeed);
     }
+
 }
