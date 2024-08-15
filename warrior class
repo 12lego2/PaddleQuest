@@ -1,21 +1,32 @@
-namespace RPGCharacterManagement
+using System;
+
+namespace RPGCharacterManagementSystem
 {
-    public class Warrior : Character
+    public class Warrior : Character, ISpecialAbility
     {
-        public Warrior(string name) : base(name)
+        public Warrior(string name) : base(name, 150, 20) { }
+
+        public override void Attack(Character target)
         {
-            Health = 150;   // Higher health for Warrior
-            AttackPower = 20; // Medium attack power
+            Console.WriteLine($"{Name} attacks {target.Name} with a sword!");
+            target.Health -= AttackPower;
         }
 
-        public override void Attack()
+        public void UseSpecialAbility()
         {
-            Console.WriteLine($"{Name} attacks with a sword! Deals {AttackPower} damage.");
+            Console.WriteLine($"{Name} uses a shield block!");
         }
 
-        public override void DisplayCharacterInfo()
+        public override void UseSpecialAbility(Character target)
         {
-            Console.WriteLine($"Name: {Name}, Class: Warrior, Health: {Health}, Attack Power: {AttackPower}");
+            Console.WriteLine($"{Name} uses a special attack on {target.Name}!");
+            target.Health -= AttackPower * 2; // Double damage for special ability
+        }
+
+        public override void ReflectAttack(Character target)
+        {
+            Console.WriteLine($"{Name} reflects the attack from {target.Name}!");
+            target.Health -= AttackPower;
         }
     }
 }

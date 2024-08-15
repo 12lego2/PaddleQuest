@@ -1,22 +1,32 @@
-namespace RPGCharacterManagement
+using System;
+
+namespace RPGCharacterManagementSystem
 {
-    public class Mage : Character
+    public class Mage : Character, ISpecialAbility
     {
-        public Mage(string name) : base(name)
+        public Mage(string name) : base(name, 100, 30) { }
+
+        public override void Attack(Character target)
         {
-            Health = 80;    // Lower health for Mage
-            AttackPower = 30; // Higher attack power for magical attacks
+            Console.WriteLine($"{Name} attacks {target.Name} with a wand!");
+            target.Health -= AttackPower;
         }
 
-        public override void Attack()
+        public void UseSpecialAbility()
         {
-            Console.WriteLine($"{Name} casts a fireball! Deals {AttackPower} damage.");
+            Console.WriteLine($"{Name} casts a fireball!");
         }
 
-        public override void DisplayCharacterInfo()
+        public override void UseSpecialAbility(Character target)
         {
-            Console.WriteLine($"Name: {Name}, Class: Mage, Health: {Health}, Attack Power: {AttackPower}");
+            Console.WriteLine($"{Name} uses a special spell on {target.Name}!");
+            target.Health -= AttackPower * 2; // Double damage for special ability
+        }
+
+        public override void ReflectAttack(Character target)
+        {
+            Console.WriteLine($"{Name} reflects the attack from {target.Name}!");
+            target.Health -= AttackPower;
         }
     }
 }
-
