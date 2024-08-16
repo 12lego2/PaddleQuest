@@ -1,8 +1,80 @@
 using System;
 
+public class Player
+{
+    private static Player instance;
+    private static readonly object lockObj = new object();
+
+    public static Player Instance
+    {
+        get
+        {
+            lock (lockObj)
+            {
+                if (instance == null)
+                {
+                    instance = new Player();
+                }
+                return instance;
+            }
+        }
+    }
+
+    public int Health { get; private set; }
+    public int Damage { get; private set; }
+
+    private Player() { }
+
+    public void SetClass(CharacterClass charClass)
+    {
+        this.Health = charClass.Health;
+        this.Damage = charClass.Damage;
+    }
+
+    public void TakeDamage()
+    {
+        Health -= Damage;
+        Console.WriteLine($"Player took damage. Remaining health: {Health}");
+        if (Health <= 0)
+        {
+            HandleDeath();
+        }
+    }
+
+    private void HandleDeath()
+    {
+        Console.WriteLine("Player has died.");
+        // Handle player death here
+    }
+}
+
+public abstract class CharacterClass
+{
+    public abstract int Health { get; }
+    public abstract int Damage { get; }
+}
+
+public class WarriorClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 15;
+}
+
+public class MageClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 20;
+}
+
+public class RogueClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 10;
+}
+
 public class ClassSelection
 {
-    public event Action<string> OnClassSelected;
+    public event Action<CharacterClass> OnClassSelected;
 
     public void DisplayMenu()
     {
@@ -16,13 +88,13 @@ public class ClassSelection
         switch (input)
         {
             case "1":
-                SelectClass("Warrior");
+                SelectClass(new WarriorClass());
                 break;
             case "2":
-                SelectClass("Mage");
+                SelectClass(new MageClass());
                 break;
             case "3":
-                SelectClass("Rogue");
+                SelectClass(new RogueClass());
                 break;
             default:
                 Console.WriteLine("Invalid selection. Please choose 1, 2, or 3.");
@@ -31,47 +103,29 @@ public class ClassSelection
         }
     }
 
-    private void SelectClass(string className)
+    private void SelectClass(CharacterClass charClass)
     {
-        OnClassSelected?.Invoke(className);
-        Console.WriteLine($"You have selected: {className}");
-        // Add any additional logic to handle the selected class
-        // For example:
-        // Player.Instance.SetClass(CreateClassInstance(className));
-    }
-
-    private object CreateClassInstance(string className)
-    {
-        switch (className)
-        {
-            case "Warrior":
-                return new WarriorClass();
-            case "Mage":
-                return new MageClass();
-            case "Rogue":
-                return new RogueClass();
-            default:
-                throw new ArgumentException("Invalid class name", nameof(className));
-        }
+        OnClassSelected?.Invoke(charClass);
+        Console.WriteLine($"You have selected: {charClass.GetType().Name}");
     }
 }
-
-public class WarriorClass { }
-public class MageClass { }
-public class RogueClass { }
 
 public class Program
 {
     public static void Main(string[] args)
     {
         var classSelection = new ClassSelection();
-        classSelection.OnClassSelected += className => 
+        classSelection.OnClassSelected += charClass =>
         {
-            // Handle class selection event
-            Console.WriteLine($"Class selected: {className}");
-            // Player.Instance.SetClass(CreateClassInstance(className)); // Example usage
+            // Set the player's class based on the selection
+            Player.Instance.SetClass(charClass);
+
+            // Print player's stats after setting the class
+            Console.WriteLine($"Player Health: {Player.Instance.Health}");
+            Console.WriteLine($"Player Damage: {Player.Instance.Damage}");
         };
 
         classSelection.DisplayMenu();
     }
 }
+
