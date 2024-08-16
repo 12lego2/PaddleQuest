@@ -1,34 +1,131 @@
-using UnityEngine;
-using UnityEngine.UI;
+using System;
 
-public class ClassSelection : MonoBehaviour
+public class Player
 {
-    public Button warriorButton;
-    public Button mageButton;
-    public Button rogueButton;
+    private static Player instance;
+    private static readonly object lockObj = new object();
 
-    void Start()
+    public static Player Instance
     {
-        warriorButton.onClick.AddListener(() => SelectClass("Warrior"));
-        mageButton.onClick.AddListener(() => SelectClass("Mage"));
-        rogueButton.onClick.AddListener(() => SelectClass("Rogue"));
+        get
+        {
+            lock (lockObj)
+            {
+                if (instance == null)
+                {
+                    instance = new Player();
+                }
+                return instance;
+            }
+        }
     }
 
-    void SelectClass(string className)
+    public int Health { get; private set; }
+    public int Damage { get; private set; }
+
+    private Player() { }
+
+    public void SetClass(CharacterClass charClass)
     {
-        switch (className)
+        this.Health = charClass.Health;
+        this.Damage = charClass.Damage;
+    }
+
+    public void TakeDamage()
+    {
+        Health -= Damage;
+        Console.WriteLine($"Player took damage. Remaining health: {Health}");
+        if (Health <= 0)
         {
-            case "Warrior":
-                Player.Instance.SetClass(new WarriorClass());
-                break;
-            case "Mage":
-                Player.Instance.SetClass(new MageClass());
-                break;
-            case "Rogue":
-                Player.Instance.SetClass(new RogueClass());
-                break;
+            HandleDeath();
         }
+    }
+
+    private void HandleDeath()
+    {
+        Console.WriteLine("Player has died.");
+        // Handle player death here
     }
 }
 
+public abstract class CharacterClass
+{
+    public abstract int Health { get; }
+    public abstract int Damage { get; }
+}
+
+public class WarriorClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 15;
+}
+
+public class MageClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 20;
+}
+
+public class RogueClass : CharacterClass
+{
+    public override int Health => 100;
+    public override int Damage => 10;
+}
+
+public class ClassSelection
+{
+    public event Action<CharacterClass> OnClassSelected;
+
+    public void DisplayMenu()
+    {
+        Console.WriteLine("Select a class:");
+        Console.WriteLine("1. Warrior");
+        Console.WriteLine("2. Mage");
+        Console.WriteLine("3. Rogue");
+
+        var input = Console.ReadLine();
+
+        switch (input)
+        {
+            case "1":
+                SelectClass(new WarriorClass());
+                break;
+            case "2":
+                SelectClass(new MageClass());
+                break;
+            case "3":
+                SelectClass(new RogueClass());
+                break;
+            default:
+                Console.WriteLine("Invalid selection. Please choose 1, 2, or 3.");
+                DisplayMenu(); // Repeat menu if invalid input
+                break;
+        }
+    }
+
+    private void SelectClass(CharacterClass charClass)
+    {
+        OnClassSelected?.Invoke(charClass);
+        Console.WriteLine($"You have selected: {charClass.GetType().Name}");
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var classSelection = new ClassSelection();
+        classSelection.OnClassSelected += charClass =>
+        {
+            // Set the player's class based on the selection
+            Player.Instance.SetClass(charClass);
+
+            // Print player's stats after setting the class
+            Console.WriteLine($"Player Health: {Player.Instance.Health}");
+            Console.WriteLine($"Player Damage: {Player.Instance.Damage}");
+        };
+
+        classSelection.DisplayMenu();
+    }
+}
 
