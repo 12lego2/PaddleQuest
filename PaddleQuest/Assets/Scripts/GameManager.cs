@@ -6,9 +6,6 @@ public class GameManager : MonoBehaviour
     public Ball ball;
     public int ballDamage = 10;
 
-    /*public Arrow arrow;
-    public int arrowDamage = 20;*/
-
     public int maxHealth = 100;
     public Slider playerHealthSlider;
     public Slider compHealthSlider;
@@ -48,30 +45,36 @@ public class GameManager : MonoBehaviour
         _playerHealth -= ballDamage;
         Debug.Log("Player " + _playerHealth);
 
-        if(_playerHealth <= 0 )
+        if (_playerHealth <= 0)
         {
             Debug.Log("You died");
         }
         else
         {
-            //this.arrow.ResetPosition();
             this.ball.ResetPosition();
         }
     }
 
     public void CompDamage()
     {
-        _compHealth -= ballDamage;
-        Debug.Log("Computer " + _compHealth);
-
-        if (_compHealth <= 0)
+        // If an arrow, respawn without damage
+        /*if (ball.whichSprite % 2 == 0)
         {
-            Debug.Log("You win");
-        }
-        else
-        {
-            //this.arrow.ResetPosition();
             this.ball.ResetPosition();
         }
+        else
+        {*/
+            _compHealth -= ballDamage;
+            Debug.Log("Computer " + _compHealth);
+
+            if (_compHealth <= 0)
+            {
+                Debug.Log("You win");
+            }
+            else
+            {
+                this.ball.ResetPosition();
+            }
+        //}
     }
 }
