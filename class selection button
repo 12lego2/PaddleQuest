@@ -1,34 +1,77 @@
-using UnityEngine;
-using UnityEngine.UI;
+using System;
 
-public class ClassSelection : MonoBehaviour
+public class ClassSelection
 {
-    public Button warriorButton;
-    public Button mageButton;
-    public Button rogueButton;
+    public event Action<string> OnClassSelected;
 
-    void Start()
+    public void DisplayMenu()
     {
-        warriorButton.onClick.AddListener(() => SelectClass("Warrior"));
-        mageButton.onClick.AddListener(() => SelectClass("Mage"));
-        rogueButton.onClick.AddListener(() => SelectClass("Rogue"));
+        Console.WriteLine("Select a class:");
+        Console.WriteLine("1. Warrior");
+        Console.WriteLine("2. Mage");
+        Console.WriteLine("3. Rogue");
+
+        var input = Console.ReadLine();
+
+        switch (input)
+        {
+            case "1":
+                SelectClass("Warrior");
+                break;
+            case "2":
+                SelectClass("Mage");
+                break;
+            case "3":
+                SelectClass("Rogue");
+                break;
+            default:
+                Console.WriteLine("Invalid selection. Please choose 1, 2, or 3.");
+                DisplayMenu(); // Repeat menu if invalid input
+                break;
+        }
     }
 
-    void SelectClass(string className)
+    private void SelectClass(string className)
+    {
+        OnClassSelected?.Invoke(className);
+        Console.WriteLine($"You have selected: {className}");
+        // Add any additional logic to handle the selected class
+        // For example:
+        // Player.Instance.SetClass(CreateClassInstance(className));
+    }
+
+    private object CreateClassInstance(string className)
     {
         switch (className)
         {
             case "Warrior":
-                Player.Instance.SetClass(new WarriorClass());
-                break;
+                return new WarriorClass();
             case "Mage":
-                Player.Instance.SetClass(new MageClass());
-                break;
+                return new MageClass();
             case "Rogue":
-                Player.Instance.SetClass(new RogueClass());
-                break;
+                return new RogueClass();
+            default:
+                throw new ArgumentException("Invalid class name", nameof(className));
         }
     }
 }
 
+public class WarriorClass { }
+public class MageClass { }
+public class RogueClass { }
 
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var classSelection = new ClassSelection();
+        classSelection.OnClassSelected += className => 
+        {
+            // Handle class selection event
+            Console.WriteLine($"Class selected: {className}");
+            // Player.Instance.SetClass(CreateClassInstance(className)); // Example usage
+        };
+
+        classSelection.DisplayMenu();
+    }
+}
