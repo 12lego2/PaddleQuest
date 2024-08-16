@@ -25,8 +25,9 @@ public class Ball : MonoBehaviour
         /*_rigidbody.velocity = Vector3.up;*/
 
         // Create a Vector3 with a random x position between -4 and 4
+        
         float randomX = Random.Range(-4f, 4f);
-
+            
         Vector3 randomPos = new Vector3(randomX, originalPos.y, originalPos.z);
 
         // Assign this random position to the object's transform
@@ -50,6 +51,7 @@ public class Ball : MonoBehaviour
     // Random direction at start
     private void AddStartForce()
     {
+        _rigidbody.velocity = Vector3.zero;
         // Angle                         down   up
         float x = Random.value < 0.5f ? -1.0f : 1.0f;
 
@@ -62,7 +64,13 @@ public class Ball : MonoBehaviour
 
         //code to calc the % is going to be Max HP - Current HP divided by 100
 
-        float finalspeed = Mathf.Lerp(speed, MaxSpeed, 1);
+        float HPRatio = (1- (gmanager._compHealth / 100));
+        Debug.Log("HP Ratio is " + HPRatio);
+        Debug.Log(1 - (gmanager._compHealth / 100));
+        //above has rounding error; HPRatio is only ever read as 0 or 1.
+        float finalspeed = Mathf.Lerp(speed, MaxSpeed, HPRatio);
+        
+        Debug.Log("Final Speed is " + finalspeed);
         _rigidbody.AddForce(direction * finalspeed);
     }
 
@@ -78,10 +86,12 @@ public class Ball : MonoBehaviour
             // If arrow hits the player paddle
             if (collision.gameObject.CompareTag("Paddle"))
             {
+                //Block SFX
                 ResetPosition();
             }
             else if(collision.gameObject.CompareTag("PlayerWall"))
             {
+                //Damage SFX
                 gmanager.PlayerDamage();
             }
         }

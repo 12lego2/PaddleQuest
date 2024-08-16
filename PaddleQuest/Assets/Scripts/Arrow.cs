@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    public float speed = 200.0f;
+    public float speed = 100.0f;
 
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;

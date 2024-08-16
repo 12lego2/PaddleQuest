@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public Slider compHealthSlider;
 
     private int _playerHealth;
-    public int _compHealth;
+    public float _compHealth;
 
     void Start()
     {
@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
         if (_playerHealth <= 0)
         {
             Debug.Log("You died");
+
         }
         else
         {
