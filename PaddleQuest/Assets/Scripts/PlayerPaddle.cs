@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerPaddle : Paddle
 {
     private Vector2 _direction;
-    
+
     // Called every single frame for input/logic
     // Paddle movement left and right
     private void Update()
@@ -27,7 +27,7 @@ public class PlayerPaddle : Paddle
     private void FixedUpdate()
     {
         // If player paddle is moving
-        if(_direction.sqrMagnitude != 0) 
+        if (_direction.sqrMagnitude != 0)
         {
             _rigidbody.AddForce(_direction * this.speed);
         }
