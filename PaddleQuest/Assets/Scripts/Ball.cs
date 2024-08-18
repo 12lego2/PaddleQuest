@@ -13,6 +13,11 @@ public class Ball : MonoBehaviour
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
 
+    public AudioSource SFX;
+    public AudioClip block;
+    public AudioClip damage;
+
+
     public void AddForce(Vector2 force)
     {
         _rigidbody.AddForce(force);
@@ -21,11 +26,12 @@ public class Ball : MonoBehaviour
     // Respawn ball and randomize ball or arrow projectile
     public void ResetPosition()
     {
+        
         //_rigidbody.position = Vector3.up;
         /*_rigidbody.velocity = Vector3.up;*/
 
         // Create a Vector3 with a random x position between -4 and 4
-        
+
         float randomX = Random.Range(-4f, 4f);
             
         Vector3 randomPos = new Vector3(randomX, originalPos.y, originalPos.z);
@@ -87,12 +93,16 @@ public class Ball : MonoBehaviour
             if (collision.gameObject.CompareTag("Paddle"))
             {
                 //Block SFX
+                SFX.clip = block;
+                SFX.Play();
                 ResetPosition();
+
             }
             else if(collision.gameObject.CompareTag("PlayerWall"))
             {
                 //Damage SFX
                 gmanager.PlayerDamage();
+                
             }
         }
     }

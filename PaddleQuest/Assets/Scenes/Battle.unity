@@ -733,6 +733,9 @@ MonoBehaviour:
   playerHealthSlider: {fileID: 1397813028}
   compHealthSlider: {fileID: 2072003491}
   _compHealth: 0
+  SFX: {fileID: 1516200858}
+  block: {fileID: 8300000, guid: 054e1fd406d5eae41a55ad25de55703b, type: 3}
+  damage: {fileID: 8300000, guid: 68d20f029f4e3cf449eb22d609a75c10, type: 3}
 --- !u!4 &1105072909
 Transform:
   m_ObjectHideFlags: 0
@@ -788,6 +791,9 @@ MonoBehaviour:
   whichSprite: 0
   arrow: {fileID: 21300000, guid: 81adacebe74b67747af8528cd84515f6, type: 3}
   ball: {fileID: 21300000, guid: 3bf308d7146c63140bf0a995dadd45d6, type: 3}
+  SFX: {fileID: 1516200858}
+  block: {fileID: 8300000, guid: 054e1fd406d5eae41a55ad25de55703b, type: 3}
+  damage: {fileID: 8300000, guid: 68d20f029f4e3cf449eb22d609a75c10, type: 3}
 --- !u!114 &1120991355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1131,7 +1137,7 @@ Transform:
   m_GameObject: {fileID: 1134305205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.46, y: 0, z: 0}
+  m_LocalPosition: {x: -7.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 9.999841, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1251,7 +1257,7 @@ RectTransform:
   m_GameObject: {fileID: 1397813026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.690938, y: 0.525, z: 1}
+  m_LocalScale: {x: 7.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 73388688}
@@ -1398,6 +1404,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1516200858 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3144050997821598706, guid: 8cdbe5def41619b44ad4d19f12d5f501, type: 3}
+  m_PrefabInstance: {fileID: 669739999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1537520470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1481,7 @@ Transform:
   m_GameObject: {fileID: 1537520470}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.36, y: 0, z: 0}
+  m_LocalPosition: {x: 7.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 10.215449, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1821,7 +1832,7 @@ RectTransform:
   m_GameObject: {fileID: 2072003489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.7187, y: 0.55875003, z: 1}
+  m_LocalScale: {x: 7.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1586453752}

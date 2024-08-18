@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     private int _playerHealth;
     public float _compHealth;
+
+    public AudioSource SFX;
+    public AudioClip block;
+    public AudioClip damage;
 
     void Start()
     {
@@ -36,22 +41,26 @@ public class GameManager : MonoBehaviour
         // Reload the scene if the player is dead
         if (_playerHealth <= 0 || _compHealth <= 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadSceneAsync(1);
         }
     }
 
     public void PlayerDamage()
     {
+        SFX.clip = damage;
+        SFX.Play();
         _playerHealth -= ballDamage;
         Debug.Log("Player " + _playerHealth);
 
         if (_playerHealth <= 0)
         {
+            
             Debug.Log("You died");
 
         }
         else
         {
+            
             this.ball.ResetPosition();
         }
     }
@@ -70,7 +79,9 @@ public class GameManager : MonoBehaviour
 
             if (_compHealth <= 0)
             {
+            
                 Debug.Log("You win");
+                SceneManager.LoadSceneAsync(1);
             }
             else
             {
