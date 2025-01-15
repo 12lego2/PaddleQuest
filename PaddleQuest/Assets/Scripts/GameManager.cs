@@ -38,11 +38,11 @@ public class GameManager : MonoBehaviour
             compHealthSlider.value = _compHealth;
         }
 
-        // Reload the scene if the player is dead
-        if (_playerHealth <= 0 || _compHealth <= 0)
-        {
-            SceneManager.LoadSceneAsync(1);
-        }
+      // // Reload the scene if the player is dead
+      // if (_playerHealth <= 0 || _compHealth <= 0)
+      // {
+      //     SceneManager.LoadSceneAsync(1);
+      // }
     }
 
     public void PlayerDamage()
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
 
         if (_playerHealth <= 0)
         {
-            
+            SceneManager.LoadSceneAsync(3);
             Debug.Log("You died");
 
         }
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
             {
             
                 Debug.Log("You win");
-                SceneManager.LoadSceneAsync(1);
+                SceneManager.LoadSceneAsync(2);
             }
             else
             {

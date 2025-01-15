@@ -21,6 +21,10 @@ public class MainMenuScript : MonoBehaviour
     {
         Invoke("BattleLoad", 1);
     }
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
     public void BattleLoad()
     {
         SceneManager.LoadSceneAsync("Battle");
