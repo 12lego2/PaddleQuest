@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-    public float speed = 10.0f;
+    public float speed = 1.0f;
 
     protected Rigidbody2D _rigidbody;
 

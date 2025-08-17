@@ -57,7 +57,7 @@ public class Ball : MonoBehaviour
     // Random direction at start
     private void AddStartForce()
     {
-        _rigidbody.velocity = Vector3.zero;
+        _rigidbody.linearVelocity = Vector3.zero;
         // Angle                         down   up
         float x = Random.value < 0.5f ? -1.0f : 1.0f;
 

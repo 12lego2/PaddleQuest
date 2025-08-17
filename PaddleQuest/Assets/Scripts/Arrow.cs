@@ -15,7 +15,7 @@ public class Arrow : MonoBehaviour
     public void ResetPosition()
     {
         //_rigidbody.position = Vector3.up;
-        _rigidbody.velocity = Vector3.up;
+        _rigidbody.linearVelocity = Vector3.up;
         transform.position = originalPos;
 
         AddStartForce();
