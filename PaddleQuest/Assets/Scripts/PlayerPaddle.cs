@@ -1,48 +1,78 @@
+using System.Timers;
 using UnityEngine;
 
 public class PlayerPaddle : Paddle
 {
     private Vector2 _direction;
-    
 
+    public Animator pAnimator;
+    float hMove = 0f;
+    float vMove = 0f;
     // Called every single frame for input/logic
     // Paddle movement left and right [OLD]
 
 
     private void Update()
     {
+        hMove = Input.GetAxisRaw("Horizontal") * speed;
+        pAnimator.SetFloat("hSpeed", hMove);
+        vMove = Input.GetAxisRaw("Vertical") * speed;
+        pAnimator.SetFloat("vSpeed", vMove);
+        _direction.x = hMove; 
+        _direction.y = vMove;
+        _direction.Normalize();
+        _direction *= speed;
+        //old movement code
+        /*   if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+           {
+               _direction = Vector2.left;
+               //Put in the following but for hSpeed and vSpeed for l/r/u/d movement
+               //pAnimator.SetFloat("USpeed", 0);
+               
+               pAnimator.SetTrigger("Bounce")
+           }
+           else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+           {
+               _direction = Vector2.right;
+           }
+           else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+           {
+               _direction = Vector2.up;
+           }
+           else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+           {
+               _direction = Vector2.down;
+           }
+           else
+           {
+               _direction = Vector2.zero;
+        }
         
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+       */ 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Pong"))
         {
-            _direction = Vector2.left;
+            Debug.Log("Player hit a Pong!");
+            pAnimator.SetTrigger("Bounce");
+           // pAnimator.ResetTrigger("Bounce");
         }
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            _direction = Vector2.right;
-        }
-        else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-        {
-            _direction = Vector2.up;
-        }
-        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            _direction = Vector2.down;
-        }
-        else
-        {
-            _direction = Vector2.zero;
-        }
-        
     }
 
     // Called at a fixed time interval
     // Paddle physics
     private void FixedUpdate()
     {
+        _rigidbody.linearVelocity = _direction;
+
         // If player paddle is moving
-        if (_direction.sqrMagnitude != 0)
+     /*   if (_direction.sqrMagnitude != 0)
         {
             _rigidbody.AddForce(_direction * this.speed);
+           
         }
+     */
     }
 }

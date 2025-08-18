@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // Update slider if the health slider is not the same amount as player health
+
+        //Slider temporarily removed
+
+        /*
         if (playerHealthSlider.value != _playerHealth)
         {
             playerHealthSlider.value = _playerHealth;
@@ -37,7 +41,7 @@ public class GameManager : MonoBehaviour
         {
             compHealthSlider.value = _compHealth;
         }
-
+        */
       // // Reload the scene if the player is dead
       // if (_playerHealth <= 0 || _compHealth <= 0)
       // {
