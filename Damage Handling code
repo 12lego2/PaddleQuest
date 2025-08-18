@@ -1,0 +1,33 @@
+public class Player
+{
+    public int health;
+    public int totalHits; // This value is class-dependent
+    public int damagePerHit; // This is the pong's damage
+
+    public void SetClass(CharacterClass charClass)
+    {
+        this.totalHits = charClass.totalHits;
+        this.damagePerHit = Pong.Instance.damage;
+        this.health = totalHits * damagePerHit; // Total health based on hits and pong damage
+    }
+
+    public void TakeDamage()
+    {
+        health -= damagePerHit;
+        if (health <= 0)
+        {
+            // Handle player death here
+        }
+    }
+}
+
+public class Pong
+{
+    public static Pong Instance { get; private set; }
+    public int damage = 10; // Example pong damage
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+}

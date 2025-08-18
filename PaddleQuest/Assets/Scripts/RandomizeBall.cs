@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RandomizeBall : MonoBehaviour
@@ -12,7 +10,7 @@ public class RandomizeBall : MonoBehaviour
     {
         randNum = Random.Range(0, 2);
 
-        if(randNum == 0 )
+        if (randNum == 0)
         {
             /*ball.SetActive(true);*/
         }

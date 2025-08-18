@@ -1,0 +1,32 @@
+public abstract class CharacterClass
+{
+    public int health;
+    public int damage;
+}
+
+public class WarriorClass : CharacterClass
+{
+    public WarriorClass()
+    {
+        health = 150;
+        damage = 50;
+    }
+}
+
+public class MageClass : CharacterClass
+{
+    public MageClass()
+    {
+        health = 100;
+        damage = 75;
+    }
+}
+
+public class RogueClass : CharacterClass
+{
+    public RogueClass()
+    {
+        health = 80;
+        damage = 100;
+    }
+}

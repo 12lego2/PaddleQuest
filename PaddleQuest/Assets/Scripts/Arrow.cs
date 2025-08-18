@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    public float speed = 200.0f;
+    public float speed = 100.0f;
 
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
@@ -15,7 +15,7 @@ public class Arrow : MonoBehaviour
     public void ResetPosition()
     {
         //_rigidbody.position = Vector3.up;
-        _rigidbody.velocity = Vector3.up;
+        _rigidbody.linearVelocity = Vector3.up;
         transform.position = originalPos;
 
         AddStartForce();

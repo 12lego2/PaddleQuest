@@ -1,0 +1,34 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ClassSelection : MonoBehaviour
+{
+    public Button warriorButton;
+    public Button mageButton;
+    public Button rogueButton;
+
+    void Start()
+    {
+        warriorButton.onClick.AddListener(() => SelectClass("Warrior"));
+        mageButton.onClick.AddListener(() => SelectClass("Mage"));
+        rogueButton.onClick.AddListener(() => SelectClass("Rogue"));
+    }
+
+    void SelectClass(string className)
+    {
+        switch (className)
+        {
+            case "Warrior":
+                Player.Instance.SetClass(new WarriorClass());
+                break;
+            case "Mage":
+                Player.Instance.SetClass(new MageClass());
+                break;
+            case "Rogue":
+                Player.Instance.SetClass(new RogueClass());
+                break;
+        }
+    }
+}
+
+

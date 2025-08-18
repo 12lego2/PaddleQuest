@@ -11,9 +11,9 @@ public class DamageTrigger : MonoBehaviour
      */
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Arrow arrow = collision.gameObject.GetComponent<Arrow>();
+        Ball ball = collision.gameObject.GetComponent<Ball>();
 
-        if (arrow != null)
+        if (ball != null)
         {
             BaseEventData eventData = new BaseEventData(EventSystem.current);
             this.damageTrigger.Invoke(eventData);

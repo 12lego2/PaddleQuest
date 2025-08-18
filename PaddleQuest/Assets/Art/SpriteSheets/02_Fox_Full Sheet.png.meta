@@ -1,0 +1,3393 @@
+fileFormatVersion: 2
+guid: 833aedd7ab06d2b42aa6e5c0da7dce4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7125166797669567964
+    second: 02_Fox_Full Sheet_0
+  - first:
+      213: -8639791590056638262
+    second: 02_Fox_Full Sheet_1
+  - first:
+      213: 3701795053184349338
+    second: 02_Fox_Full Sheet_2
+  - first:
+      213: -5390439886554951454
+    second: 02_Fox_Full Sheet_3
+  - first:
+      213: 8640278862664837661
+    second: 02_Fox_Full Sheet_4
+  - first:
+      213: -4274105161866360073
+    second: 02_Fox_Full Sheet_5
+  - first:
+      213: 8439179913630243864
+    second: 02_Fox_Full Sheet_6
+  - first:
+      213: 2993273815255535938
+    second: 02_Fox_Full Sheet_7
+  - first:
+      213: 8769884133553629016
+    second: 02_Fox_Full Sheet_8
+  - first:
+      213: 4649159449548550700
+    second: 02_Fox_Full Sheet_9
+  - first:
+      213: 1708546200274075543
+    second: 02_Fox_Full Sheet_10
+  - first:
+      213: -8367657499356772682
+    second: 02_Fox_Full Sheet_11
+  - first:
+      213: -1962492438600466907
+    second: 02_Fox_Full Sheet_12
+  - first:
+      213: -1764492171085912993
+    second: 02_Fox_Full Sheet_13
+  - first:
+      213: -4201961668796785331
+    second: 02_Fox_Full Sheet_14
+  - first:
+      213: -6396116071654844303
+    second: 02_Fox_Full Sheet_15
+  - first:
+      213: -2638485511209161708
+    second: 02_Fox_Full Sheet_16
+  - first:
+      213: 103237832192491357
+    second: 02_Fox_Full Sheet_17
+  - first:
+      213: -2343692103553699529
+    second: 02_Fox_Full Sheet_18
+  - first:
+      213: 2144978125942692987
+    second: 02_Fox_Full Sheet_19
+  - first:
+      213: -639507661734168834
+    second: 02_Fox_Full Sheet_20
+  - first:
+      213: -4637737685979117309
+    second: 02_Fox_Full Sheet_21
+  - first:
+      213: -6131123501266997477
+    second: 02_Fox_Full Sheet_22
+  - first:
+      213: 1797654877549696195
+    second: 02_Fox_Full Sheet_23
+  - first:
+      213: -127845334749720772
+    second: 02_Fox_Full Sheet_24
+  - first:
+      213: -2674198920112559653
+    second: 02_Fox_Full Sheet_25
+  - first:
+      213: -5289979911585277941
+    second: 02_Fox_Full Sheet_26
+  - first:
+      213: 2970498669496706971
+    second: 02_Fox_Full Sheet_27
+  - first:
+      213: 4367842901599113525
+    second: 02_Fox_Full Sheet_28
+  - first:
+      213: -1301710631341962175
+    second: 02_Fox_Full Sheet_29
+  - first:
+      213: -3091696387220322900
+    second: 02_Fox_Full Sheet_30
+  - first:
+      213: -8593916638541613647
+    second: 02_Fox_Full Sheet_31
+  - first:
+      213: 1986853015033365948
+    second: 02_Fox_Full Sheet_32
+  - first:
+      213: -2483031479107056511
+    second: 02_Fox_Full Sheet_33
+  - first:
+      213: 8347634783654179620
+    second: 02_Fox_Full Sheet_34
+  - first:
+      213: -372163021545993711
+    second: 02_Fox_Full Sheet_35
+  - first:
+      213: -4913591122527365006
+    second: 02_Fox_Full Sheet_36
+  - first:
+      213: -3125565789826198957
+    second: 02_Fox_Full Sheet_37
+  - first:
+      213: -6180719359329967415
+    second: 02_Fox_Full Sheet_38
+  - first:
+      213: 3626967615635125613
+    second: 02_Fox_Full Sheet_39
+  - first:
+      213: -2303794416142751099
+    second: 02_Fox_Full Sheet_40
+  - first:
+      213: -3100024081762282428
+    second: 02_Fox_Full Sheet_41
+  - first:
+      213: -4909165539890352840
+    second: 02_Fox_Full Sheet_42
+  - first:
+      213: -7733829418943375884
+    second: 02_Fox_Full Sheet_43
+  - first:
+      213: -7971271835465250764
+    second: 02_Fox_Full Sheet_44
+  - first:
+      213: -4818906757921102733
+    second: 02_Fox_Full Sheet_45
+  - first:
+      213: -2801330048143408497
+    second: 02_Fox_Full Sheet_46
+  - first:
+      213: -7107651149867499158
+    second: 02_Fox_Full Sheet_47
+  - first:
+      213: 8398461526919301206
+    second: 02_Fox_Full Sheet_48
+  - first:
+      213: -7059834337127305389
+    second: 02_Fox_Full Sheet_49
+  - first:
+      213: 2342925218490197145
+    second: 02_Fox_Full Sheet_50
+  - first:
+      213: 2751268828595116948
+    second: 02_Fox_Full Sheet_51
+  - first:
+      213: -4904009437328798205
+    second: 02_Fox_Full Sheet_52
+  - first:
+      213: 928104075002547156
+    second: 02_Fox_Full Sheet_53
+  - first:
+      213: -5374838867179694807
+    second: 02_Fox_Full Sheet_54
+  - first:
+      213: -6878810286500705369
+    second: 02_Fox_Full Sheet_55
+  - first:
+      213: 4895952470696096260
+    second: 02_Fox_Full Sheet_56
+  - first:
+      213: -5990092060561455344
+    second: 02_Fox_Full Sheet_57
+  - first:
+      213: 9127272485097512125
+    second: 02_Fox_Full Sheet_58
+  - first:
+      213: -7704620381084317525
+    second: 02_Fox_Full Sheet_59
+  - first:
+      213: 811334514726074764
+    second: 02_Fox_Full Sheet_60
+  - first:
+      213: 1317068773933026661
+    second: 02_Fox_Full Sheet_61
+  - first:
+      213: -5501505807740908710
+    second: 02_Fox_Full Sheet_62
+  - first:
+      213: 6883057920227193144
+    second: 02_Fox_Full Sheet_63
+  - first:
+      213: -3591550470929418252
+    second: 02_Fox_Full Sheet_64
+  - first:
+      213: -2193192780064945023
+    second: 02_Fox_Full Sheet_65
+  - first:
+      213: 3862902424954569315
+    second: 02_Fox_Full Sheet_66
+  - first:
+      213: -7670810533836478680
+    second: 02_Fox_Full Sheet_67
+  - first:
+      213: -8903038048595784053
+    second: 02_Fox_Full Sheet_68
+  - first:
+      213: 8369289106254071240
+    second: 02_Fox_Full Sheet_69
+  - first:
+      213: -1069272090730137987
+    second: 02_Fox_Full Sheet_70
+  - first:
+      213: 8581876305091025669
+    second: 02_Fox_Full Sheet_71
+  - first:
+      213: 4624106175172761598
+    second: 02_Fox_Full Sheet_72
+  - first:
+      213: 711929789852715436
+    second: 02_Fox_Full Sheet_73
+  - first:
+      213: 5970475136039827775
+    second: 02_Fox_Full Sheet_74
+  - first:
+      213: -7970243664467986440
+    second: 02_Fox_Full Sheet_75
+  - first:
+      213: -2295791242637493496
+    second: 02_Fox_Full Sheet_76
+  - first:
+      213: 8714847036742847498
+    second: 02_Fox_Full Sheet_77
+  - first:
+      213: -318346237754270631
+    second: 02_Fox_Full Sheet_78
+  - first:
+      213: 4201777189318660650
+    second: 02_Fox_Full Sheet_79
+  - first:
+      213: 4586643030107582805
+    second: 02_Fox_Full Sheet_80
+  - first:
+      213: 2379538566054248825
+    second: 02_Fox_Full Sheet_81
+  - first:
+      213: 3597099220135518091
+    second: 02_Fox_Full Sheet_82
+  - first:
+      213: 7178531412543391138
+    second: 02_Fox_Full Sheet_83
+  - first:
+      213: 6440664478265801741
+    second: 02_Fox_Full Sheet_84
+  - first:
+      213: 4511774644504548374
+    second: 02_Fox_Full Sheet_85
+  - first:
+      213: 6258783327801919937
+    second: 02_Fox_Full Sheet_86
+  - first:
+      213: 1628712627485339006
+    second: 02_Fox_Full Sheet_87
+  - first:
+      213: -1455212502352524024
+    second: 02_Fox_Full Sheet_88
+  - first:
+      213: -4595551139162908760
+    second: 02_Fox_Full Sheet_89
+  - first:
+      213: -4002214492979923600
+    second: 02_Fox_Full Sheet_90
+  - first:
+      213: 4303194490523792200
+    second: 02_Fox_Full Sheet_91
+  - first:
+      213: -7405714890329650362
+    second: 02_Fox_Full Sheet_92
+  - first:
+      213: -3262470363596038782
+    second: 02_Fox_Full Sheet_93
+  - first:
+      213: -5656650020581251025
+    second: 02_Fox_Full Sheet_94
+  - first:
+      213: 7421558652623073096
+    second: 02_Fox_Full Sheet_95
+  - first:
+      213: -4041019797328736592
+    second: 02_Fox_Full Sheet_96
+  - first:
+      213: 8581185335301646282
+    second: 02_Fox_Full Sheet_97
+  - first:
+      213: 1706957025785035744
+    second: 02_Fox_Full Sheet_98
+  - first:
+      213: 6136496349015569664
+    second: 02_Fox_Full Sheet_99
+  - first:
+      213: 1247415196138238213
+    second: 02_Fox_Full Sheet_100
+  - first:
+      213: -2119369963564856418
+    second: 02_Fox_Full Sheet_101
+  - first:
+      213: 7357206568304919827
+    second: 02_Fox_Full Sheet_102
+  - first:
+      213: 6773691850701091886
+    second: 02_Fox_Full Sheet_103
+  - first:
+      213: 6567852174594691500
+    second: 02_Fox_Full Sheet_104
+  - first:
+      213: 8996721049575208832
+    second: 02_Fox_Full Sheet_105
+  - first:
+      213: -793433004182762643
+    second: 02_Fox_Full Sheet_106
+  - first:
+      213: 3895452213804250084
+    second: 02_Fox_Full Sheet_107
+  - first:
+      213: 1818853866117870655
+    second: 02_Fox_Full Sheet_108
+  - first:
+      213: -8598082205783385186
+    second: 02_Fox_Full Sheet_109
+  - first:
+      213: -3641604497901002857
+    second: 02_Fox_Full Sheet_110
+  - first:
+      213: -8163434602009881171
+    second: 02_Fox_Full Sheet_111
+  - first:
+      213: -4963951426101340021
+    second: 02_Fox_Full Sheet_112
+  - first:
+      213: -6498586566980262792
+    second: 02_Fox_Full Sheet_113
+  - first:
+      213: -1494377198449360142
+    second: 02_Fox_Full Sheet_114
+  - first:
+      213: 8807380168621483005
+    second: 02_Fox_Full Sheet_115
+  - first:
+      213: -2964015229068693042
+    second: 02_Fox_Full Sheet_116
+  - first:
+      213: -7465773254243032048
+    second: 02_Fox_Full Sheet_117
+  - first:
+      213: -3102007209408373886
+    second: 02_Fox_Full Sheet_118
+  - first:
+      213: -4411696944170640302
+    second: 02_Fox_Full Sheet_119
+  - first:
+      213: 699096512650802182
+    second: 02_Fox_Full Sheet_120
+  - first:
+      213: 7362352050330480397
+    second: 02_Fox_Full Sheet_121
+  - first:
+      213: -3581995608723267720
+    second: 02_Fox_Full Sheet_122
+  - first:
+      213: 466137017752372523
+    second: 02_Fox_Full Sheet_123
+  - first:
+      213: 1746266783552335228
+    second: 02_Fox_Full Sheet_124
+  - first:
+      213: 8570810227500451201
+    second: 02_Fox_Full Sheet_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 991
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd8084a37da1e260800000000000000
+      internalID: 7125166797669567964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 991
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8444d035b491880800000000000000
+      internalID: -8639791590056638262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 991
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f958ecfa6f5330800000000000000
+      internalID: 3701795053184349338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 991
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e09bc2ab7f4135b0800000000000000
+      internalID: -5390439886554951454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 990
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a2471f8df68e770800000000000000
+      internalID: 8640278862664837661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 991
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faca4e10045fa4c0800000000000000
+      internalID: -4274105161866360073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 990
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cda833b6dfd1570800000000000000
+      internalID: 8439179913630243864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 991
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241d8c90dae3a8920800000000000000
+      internalID: 2993273815255535938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 993
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8576cc59723e4b970800000000000000
+      internalID: 8769884133553629016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 992
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22fd7613e1258040800000000000000
+      internalID: 4649159449548550700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 991
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ffda587b9f5b710800000000000000
+      internalID: 1708546200274075543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 991
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6c4bc86db10eb80800000000000000
+      internalID: -8367657499356772682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 993
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e34da5683d3c4e0800000000000000
+      internalID: -1962492438600466907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 993
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54677518b34387e0800000000000000
+      internalID: -1764492171085912993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 975
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d5f8b0022afa5c0800000000000000
+      internalID: -4201961668796785331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 993
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17898d6225e6c37a0800000000000000
+      internalID: -6396116071654844303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 992
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cec572867326bd0800000000000000
+      internalID: -2638485511209161708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 991
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ff63be246ce6100800000000000000
+      internalID: 103237832192491357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 981
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7313bc00378897fd0800000000000000
+      internalID: -2343692103553699529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 975
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c1ccfad3e74cd10800000000000000
+      internalID: 2144978125942692987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 975
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6b13f7b230027f0800000000000000
+      internalID: -639507661734168834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 975
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309c5c9752273afb0800000000000000
+      internalID: -4637737685979117309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 943
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f6ee0e8afd9eaa0800000000000000
+      internalID: -6131123501266997477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 943
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41915369d82f810800000000000000
+      internalID: 1797654877549696195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 943
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f4d0c685dc93ef0800000000000000
+      internalID: -127845334749720772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 943
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd925fb204653ead0800000000000000
+      internalID: -2674198920112559653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 943
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08d1054c473696b0800000000000000
+      internalID: -5289979911585277941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 943
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b972f113dc4593920800000000000000
+      internalID: 2970498669496706971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 943
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531d6882af1bd9c30800000000000000
+      internalID: 4367842901599113525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 943
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c438ad3156fede0800000000000000
+      internalID: -1301710631341962175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 944
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5cf5e24861815d0800000000000000
+      internalID: -3091696387220322900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 944
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5786a89564cb880800000000000000
+      internalID: -8593916638541613647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 943
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb54af55a48b29b10800000000000000
+      internalID: 1986853015033365948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 943
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c06b186008a8dd0800000000000000
+      internalID: -2483031479107056511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 944
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423f66aab91c8d370800000000000000
+      internalID: 8347634783654179620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 944
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a073624bfc5daf0800000000000000
+      internalID: -372163021545993711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 942
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2785e3a48ea6fcbb0800000000000000
+      internalID: -4913591122527365006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 944
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352db4f5972cf94d0800000000000000
+      internalID: -3125565789826198957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 939
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2e1c25d7ca93aa0800000000000000
+      internalID: -6180719359329967415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 944
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65f6c574d3955230800000000000000
+      internalID: 3626967615635125613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 943
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a684e3f274700e0800000000000000
+      internalID: -2303794416142751099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 939
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4441763b5808af4d0800000000000000
+      internalID: -3100024081762282428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 939
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d2f3b83f32fdbb0800000000000000
+      internalID: -4909165539890352840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51a6a7e1beba490800000000000000
+      internalID: -7733829418943375884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 895
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438840fcf7a506190800000000000000
+      internalID: -7971271835465250764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 895
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3742268d5ddcf1db0800000000000000
+      internalID: -4818906757921102733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 895
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c8cdc92daf19d0800000000000000
+      internalID: -2801330048143408497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 895
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6140c8efec8c5d90800000000000000
+      internalID: -7107651149867499158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 895
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6584fc303445d8470800000000000000
+      internalID: 8398461526919301206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 895
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35feb62331e660e90800000000000000
+      internalID: -7059834337127305389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 895
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994a967a21eb38020800000000000000
+      internalID: 2342925218490197145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 896
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b540a3c687e2620800000000000000
+      internalID: 2751268828595116948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 896
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e8ad8366571fbb0800000000000000
+      internalID: -4904009437328798205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 895
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db8e192db941ec00800000000000000
+      internalID: 928104075002547156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 895
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9259ac4078cb865b0800000000000000
+      internalID: -5374838867179694807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 896
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab82db6d7e8980a0800000000000000
+      internalID: -6878810286500705369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 896
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402790d05dae1f340800000000000000
+      internalID: 4895952470696096260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 896
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017c85ef10beedca0800000000000000
+      internalID: -5990092060561455344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 894
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc1f6287f59aae70800000000000000
+      internalID: 9127272485097512125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 896
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba80c309590b31590800000000000000
+      internalID: -7704620381084317525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 891
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89f2484170724b00800000000000000
+      internalID: 811334514726074764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 895
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d890f521b274210800000000000000
+      internalID: 1317068773933026661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 891
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bcad7bd99b6a3b0800000000000000
+      internalID: -5501505807740908710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 891
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831b49fd5b8858f50800000000000000
+      internalID: 6883057920227193144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 857
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f77d5320ef382ec0800000000000000
+      internalID: -3591550470929418252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 867
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c074c59c63091e0800000000000000
+      internalID: -2193192780064945023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 870
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3628969f949cb9530800000000000000
+      internalID: 3862902424954569315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 870
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8272a5f067ecb8590800000000000000
+      internalID: -7670810533836478680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 845
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e49aba01e027480800000000000000
+      internalID: -8903038048595784053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 846
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c502d88910b52470800000000000000
+      internalID: 8369289106254071240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 846
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d767acfd2be2921f0800000000000000
+      internalID: -1069272090730137987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 846
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bda4fd703f81770800000000000000
+      internalID: 8581876305091025669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 846
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7dcd611102c2040800000000000000
+      internalID: 4624106175172761598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 846
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca980353f5841e900800000000000000
+      internalID: 711929789852715436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 846
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b4f7d0836bd250800000000000000
+      internalID: 5970475136039827775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 846
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7f3168d91046190800000000000000
+      internalID: -7970243664467986440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 846
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb3284706b320e0800000000000000
+      internalID: -2295791242637493496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 848
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c4ce8e43b51f870800000000000000
+      internalID: 8714847036742847498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 849
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c131f88c1059bf0800000000000000
+      internalID: -318346237754270631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 848
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a229daa7716bf4a30800000000000000
+      internalID: 4201777189318660650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 846
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5517519e88707af30800000000000000
+      internalID: 4586643030107582805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 849
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971810fe7b1d50120800000000000000
+      internalID: 2379538566054248825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 849
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f1306bea67be130800000000000000
+      internalID: 3597099220135518091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 848
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5c1a549444f9360800000000000000
+      internalID: 7178531412543391138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 849
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c72880836d16950800000000000000
+      internalID: 6440664478265801741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 848
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614de40822b0d9e30800000000000000
+      internalID: 4511774644504548374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 801
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c945c3b64aabd650800000000000000
+      internalID: 6258783327801919937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 802
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7de47261895a9610800000000000000
+      internalID: 1628712627485339006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 801
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d029c60fb0ecbe0800000000000000
+      internalID: -1455212502352524024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 800
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a79d0356925930c0800000000000000
+      internalID: -4595551139162908760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 799
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075f20f8f174578c0800000000000000
+      internalID: -4002214492979923600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 799
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843b61ff69408bb30800000000000000
+      internalID: 4303194490523792200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 799
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b841e5b8d993990800000000000000
+      internalID: -7405714890329650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 799
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d5e975d7069b2d0800000000000000
+      internalID: -3262470363596038782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 799
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f286c88c6ca8f71b0800000000000000
+      internalID: -5656650020581251025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 811
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f2351064caef660800000000000000
+      internalID: 7421558652623073096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 799
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be46e197e96be7c0800000000000000
+      internalID: -4041019797328736592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 811
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7227ee89e761770800000000000000
+      internalID: 8581185335301646282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 799
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb36c00f5450b710800000000000000
+      internalID: 1706957025785035744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 811
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005fd88bae6392550800000000000000
+      internalID: 6136496349015569664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 799
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5017e350385bf4110800000000000000
+      internalID: 1247415196138238213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 811
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b851e3f3c7692e0800000000000000
+      internalID: -2119369963564856418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 752
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3154cfac46c0a1660800000000000000
+      internalID: 7357206568304919827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 753
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243ff289dcf00e50800000000000000
+      internalID: 6773691850701091886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 752
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca15efb31c2b52b50800000000000000
+      internalID: 6567852174594691500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 751
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087b53fb026cadc70800000000000000
+      internalID: 8996721049575208832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 751
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b8d90f2e82df4f0800000000000000
+      internalID: -793433004182762643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 751
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3bf43462d6f0630800000000000000
+      internalID: 3895452213804250084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 751
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f343d4c54fddd3910800000000000000
+      internalID: 1818853866117870655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 751
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b9ca6d9c97da880800000000000000
+      internalID: -8598082205783385186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 704
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f5522d00c667dc0800000000000000
+      internalID: -3641604497901002857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 705
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da591103b77a5be80800000000000000
+      internalID: -8163434602009881171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 704
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b889fe46a708c1bb0800000000000000
+      internalID: -4963951426101340021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 703
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8742405c2f160d5a0800000000000000
+      internalID: -6498586566980262792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 703
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f28bf50bd7e24be0800000000000000
+      internalID: -1494377198449360142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 703
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3e08099991a3a70800000000000000
+      internalID: 8807380168621483005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 703
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1338a6ad3bdd6d0800000000000000
+      internalID: -2964015229068693042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 703
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0146b37d7ce346890800000000000000
+      internalID: -7465773254243032048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 657
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b5380d0e473f4d0800000000000000
+      internalID: -3102007209408373886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 657
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c5802e00186c2c0800000000000000
+      internalID: -4411696944170640302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 656
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f3440390b3b900800000000000000
+      internalID: 699096512650802182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 655
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f215fae245c2660800000000000000
+      internalID: 7362352050330480397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 654
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f5a0bd8f13a4ec0800000000000000
+      internalID: -3581995608723267720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 654
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b254acfd52d087600800000000000000
+      internalID: 466137017752372523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 654
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d63b4336cfb3810800000000000000
+      internalID: 1746266783552335228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Fox_Full Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 654
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1850377ed72a1f670800000000000000
+      internalID: 8570810227500451201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      02_Fox_Full Sheet_0: 7125166797669567964
+      02_Fox_Full Sheet_1: -8639791590056638262
+      02_Fox_Full Sheet_10: 1708546200274075543
+      02_Fox_Full Sheet_100: 1247415196138238213
+      02_Fox_Full Sheet_101: -2119369963564856418
+      02_Fox_Full Sheet_102: 7357206568304919827
+      02_Fox_Full Sheet_103: 6773691850701091886
+      02_Fox_Full Sheet_104: 6567852174594691500
+      02_Fox_Full Sheet_105: 8996721049575208832
+      02_Fox_Full Sheet_106: -793433004182762643
+      02_Fox_Full Sheet_107: 3895452213804250084
+      02_Fox_Full Sheet_108: 1818853866117870655
+      02_Fox_Full Sheet_109: -8598082205783385186
+      02_Fox_Full Sheet_11: -8367657499356772682
+      02_Fox_Full Sheet_110: -3641604497901002857
+      02_Fox_Full Sheet_111: -8163434602009881171
+      02_Fox_Full Sheet_112: -4963951426101340021
+      02_Fox_Full Sheet_113: -6498586566980262792
+      02_Fox_Full Sheet_114: -1494377198449360142
+      02_Fox_Full Sheet_115: 8807380168621483005
+      02_Fox_Full Sheet_116: -2964015229068693042
+      02_Fox_Full Sheet_117: -7465773254243032048
+      02_Fox_Full Sheet_118: -3102007209408373886
+      02_Fox_Full Sheet_119: -4411696944170640302
+      02_Fox_Full Sheet_12: -1962492438600466907
+      02_Fox_Full Sheet_120: 699096512650802182
+      02_Fox_Full Sheet_121: 7362352050330480397
+      02_Fox_Full Sheet_122: -3581995608723267720
+      02_Fox_Full Sheet_123: 466137017752372523
+      02_Fox_Full Sheet_124: 1746266783552335228
+      02_Fox_Full Sheet_125: 8570810227500451201
+      02_Fox_Full Sheet_13: -1764492171085912993
+      02_Fox_Full Sheet_14: -4201961668796785331
+      02_Fox_Full Sheet_15: -6396116071654844303
+      02_Fox_Full Sheet_16: -2638485511209161708
+      02_Fox_Full Sheet_17: 103237832192491357
+      02_Fox_Full Sheet_18: -2343692103553699529
+      02_Fox_Full Sheet_19: 2144978125942692987
+      02_Fox_Full Sheet_2: 3701795053184349338
+      02_Fox_Full Sheet_20: -639507661734168834
+      02_Fox_Full Sheet_21: -4637737685979117309
+      02_Fox_Full Sheet_22: -6131123501266997477
+      02_Fox_Full Sheet_23: 1797654877549696195
+      02_Fox_Full Sheet_24: -127845334749720772
+      02_Fox_Full Sheet_25: -2674198920112559653
+      02_Fox_Full Sheet_26: -5289979911585277941
+      02_Fox_Full Sheet_27: 2970498669496706971
+      02_Fox_Full Sheet_28: 4367842901599113525
+      02_Fox_Full Sheet_29: -1301710631341962175
+      02_Fox_Full Sheet_3: -5390439886554951454
+      02_Fox_Full Sheet_30: -3091696387220322900
+      02_Fox_Full Sheet_31: -8593916638541613647
+      02_Fox_Full Sheet_32: 1986853015033365948
+      02_Fox_Full Sheet_33: -2483031479107056511
+      02_Fox_Full Sheet_34: 8347634783654179620
+      02_Fox_Full Sheet_35: -372163021545993711
+      02_Fox_Full Sheet_36: -4913591122527365006
+      02_Fox_Full Sheet_37: -3125565789826198957
+      02_Fox_Full Sheet_38: -6180719359329967415
+      02_Fox_Full Sheet_39: 3626967615635125613
+      02_Fox_Full Sheet_4: 8640278862664837661
+      02_Fox_Full Sheet_40: -2303794416142751099
+      02_Fox_Full Sheet_41: -3100024081762282428
+      02_Fox_Full Sheet_42: -4909165539890352840
+      02_Fox_Full Sheet_43: -7733829418943375884
+      02_Fox_Full Sheet_44: -7971271835465250764
+      02_Fox_Full Sheet_45: -4818906757921102733
+      02_Fox_Full Sheet_46: -2801330048143408497
+      02_Fox_Full Sheet_47: -7107651149867499158
+      02_Fox_Full Sheet_48: 8398461526919301206
+      02_Fox_Full Sheet_49: -7059834337127305389
+      02_Fox_Full Sheet_5: -4274105161866360073
+      02_Fox_Full Sheet_50: 2342925218490197145
+      02_Fox_Full Sheet_51: 2751268828595116948
+      02_Fox_Full Sheet_52: -4904009437328798205
+      02_Fox_Full Sheet_53: 928104075002547156
+      02_Fox_Full Sheet_54: -5374838867179694807
+      02_Fox_Full Sheet_55: -6878810286500705369
+      02_Fox_Full Sheet_56: 4895952470696096260
+      02_Fox_Full Sheet_57: -5990092060561455344
+      02_Fox_Full Sheet_58: 9127272485097512125
+      02_Fox_Full Sheet_59: -7704620381084317525
+      02_Fox_Full Sheet_6: 8439179913630243864
+      02_Fox_Full Sheet_60: 811334514726074764
+      02_Fox_Full Sheet_61: 1317068773933026661
+      02_Fox_Full Sheet_62: -5501505807740908710
+      02_Fox_Full Sheet_63: 6883057920227193144
+      02_Fox_Full Sheet_64: -3591550470929418252
+      02_Fox_Full Sheet_65: -2193192780064945023
+      02_Fox_Full Sheet_66: 3862902424954569315
+      02_Fox_Full Sheet_67: -7670810533836478680
+      02_Fox_Full Sheet_68: -8903038048595784053
+      02_Fox_Full Sheet_69: 8369289106254071240
+      02_Fox_Full Sheet_7: 2993273815255535938
+      02_Fox_Full Sheet_70: -1069272090730137987
+      02_Fox_Full Sheet_71: 8581876305091025669
+      02_Fox_Full Sheet_72: 4624106175172761598
+      02_Fox_Full Sheet_73: 711929789852715436
+      02_Fox_Full Sheet_74: 5970475136039827775
+      02_Fox_Full Sheet_75: -7970243664467986440
+      02_Fox_Full Sheet_76: -2295791242637493496
+      02_Fox_Full Sheet_77: 8714847036742847498
+      02_Fox_Full Sheet_78: -318346237754270631
+      02_Fox_Full Sheet_79: 4201777189318660650
+      02_Fox_Full Sheet_8: 8769884133553629016
+      02_Fox_Full Sheet_80: 4586643030107582805
+      02_Fox_Full Sheet_81: 2379538566054248825
+      02_Fox_Full Sheet_82: 3597099220135518091
+      02_Fox_Full Sheet_83: 7178531412543391138
+      02_Fox_Full Sheet_84: 6440664478265801741
+      02_Fox_Full Sheet_85: 4511774644504548374
+      02_Fox_Full Sheet_86: 6258783327801919937
+      02_Fox_Full Sheet_87: 1628712627485339006
+      02_Fox_Full Sheet_88: -1455212502352524024
+      02_Fox_Full Sheet_89: -4595551139162908760
+      02_Fox_Full Sheet_9: 4649159449548550700
+      02_Fox_Full Sheet_90: -4002214492979923600
+      02_Fox_Full Sheet_91: 4303194490523792200
+      02_Fox_Full Sheet_92: -7405714890329650362
+      02_Fox_Full Sheet_93: -3262470363596038782
+      02_Fox_Full Sheet_94: -5656650020581251025
+      02_Fox_Full Sheet_95: 7421558652623073096
+      02_Fox_Full Sheet_96: -4041019797328736592
+      02_Fox_Full Sheet_97: 8581185335301646282
+      02_Fox_Full Sheet_98: 1706957025785035744
+      02_Fox_Full Sheet_99: 6136496349015569664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
