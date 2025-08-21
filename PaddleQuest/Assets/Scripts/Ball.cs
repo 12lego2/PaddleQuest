@@ -10,6 +10,9 @@ public class Ball : MonoBehaviour
     public Sprite arrow;
     public Sprite ball;
 
+    public TrailRenderer Trail;
+    
+
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
 
@@ -32,13 +35,14 @@ public class Ball : MonoBehaviour
 
         // Create a Vector3 with a random x position between -4 and 4
 
-        float randomX = Random.Range(-4f, 4f);
+        float randomX = Random.Range(-5f, 5f);
             
         Vector3 randomPos = new Vector3(randomX, originalPos.y, originalPos.z);
 
         // Assign this random position to the object's transform
+        
         transform.position = randomPos;
-
+        Trail.Clear();
         /*transform.position = originalPos;*/
 
         AddStartForce();
@@ -46,10 +50,12 @@ public class Ball : MonoBehaviour
         whichSprite = Random.Range(1, 10);
         if (whichSprite % 2 == 0)
         {
+            //Trail.SetActive(false);
             this.gameObject.GetComponent<SpriteRenderer>().sprite = arrow;
         }
         else
         {
+            
             this.gameObject.GetComponent<SpriteRenderer>().sprite = ball;
         }
     }
@@ -112,5 +118,8 @@ public class Ball : MonoBehaviour
     {
         originalPos = transform.position;
         ResetPosition();
+
+        //set tail component at start
+        Trail = GetComponent<TrailRenderer>();
     }
 }

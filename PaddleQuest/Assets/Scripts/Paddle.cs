@@ -6,11 +6,7 @@ public class Paddle : MonoBehaviour
 
     protected Rigidbody2D _rigidbody;
 
-    private void DisableOffScreen()
-    {
-        _rigidbody.isKinematic = true;
-    }
-
+  
     // Initialization
     private void Awake()
     {
