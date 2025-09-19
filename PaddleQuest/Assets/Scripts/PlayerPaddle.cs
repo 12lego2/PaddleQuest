@@ -5,6 +5,10 @@ public class PlayerPaddle : Paddle
 {
     private Vector2 _direction;
 
+    //variables for Player and Mouse position respectively
+    private Vector2 _playerPosition;
+    private Vector2 m_position;
+
     public Animator pAnimator;
     float hMove = 0f;
     float vMove = 0f;
@@ -22,6 +26,16 @@ public class PlayerPaddle : Paddle
         _direction.y = vMove;
         _direction.Normalize();
         _direction *= speed;
+
+        if (Input.GetMouseButton(1))
+        {
+            //https://discussions.unity.com/t/make-object-follow-mouse-2d-game/520226/9
+
+            m_position = Input.mousePosition;
+           
+        }
+
+
         //old movement code
         /*   if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
            {
