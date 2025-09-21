@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Ball : MonoBehaviour
 {
@@ -9,12 +11,14 @@ public class Ball : MonoBehaviour
     public int whichSprite;
     public Sprite arrow;
     public Sprite ball;
+    public string currentSprite;
 
     public TrailRenderer Trail;
     
 
     private Rigidbody2D _rigidbody;
     private Vector3 originalPos;
+    private Vector3 CurrentPos;
 
     public AudioSource SFX;
     public AudioClip block;
@@ -52,11 +56,14 @@ public class Ball : MonoBehaviour
         {
             //Trail.SetActive(false);
             this.gameObject.GetComponent<SpriteRenderer>().sprite = arrow;
+            currentSprite = "arrow";
         }
         else
         {
             
             this.gameObject.GetComponent<SpriteRenderer>().sprite = ball;
+            currentSprite = "ball";
+
         }
     }
 
@@ -113,6 +120,35 @@ public class Ball : MonoBehaviour
         }
     }
 
+    public void WasHit(Vector3 TLocation)
+    {
+        switch (currentSprite)
+        {
+        case "arrow":
+                SFX.clip = block;
+                SFX.Play();
+                ResetPosition();
+                break;
+        case "ball":
+                CurrentPos = transform.position;
+                CurrentPos = TLocation - CurrentPos;
+                CurrentPos.Normalize();
+                _rigidbody.linearVelocity = CurrentPos * speed;
+                break;
+
+        }
+        
+        //Code to bounce w/attack
+        /*
+        CurrentPos = transform.position;
+        CurrentPos = TLocation - CurrentPos;
+        CurrentPos.Normalize();
+        _rigidbody.linearVelocity = CurrentPos * speed;
+        */
+        //_rigidbody.AddForce(CurrentPos);
+
+    }
+
     // Set position at game start
     private void Start()
     {
@@ -121,5 +157,8 @@ public class Ball : MonoBehaviour
 
         //set tail component at start
         Trail = GetComponent<TrailRenderer>();
+
     }
+
+
 }
